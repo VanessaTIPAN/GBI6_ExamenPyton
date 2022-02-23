@@ -1,1 +1,20 @@
 
+Utilice la función download_pubmed para descargar la data con el keyword Ecuador Genomics e imprima lo siguiente:
+
+'El número de artículos es: xx' # xx corresponde al número de artículos recuperados
+
+'El PMID del primer artículo es: xxxxxxxx' # xxxxxxxx corresponde al ID del artículo en PUDMED
+
+
+journals = download_pubmed("Ecuador Genomics")
+
+print ("El numero de articulos es:", len(journals)) 
+
+print ("El PMID del primer articulo es:", journals[0])
+
+
+Resultado 
+
+
+El numero de articulos es: 193
+El PMID del primer articulo es: 31822297
