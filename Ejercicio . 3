@@ -8,3 +8,15 @@ pub_authors
 coutries
 
 Muestre los dos primeros y los dos últimos registros de cada dataframe.
+
+Resolucion:
+import miningscience as msc
+pub_año = msc.mining_pubs("DP")
+print (pub_año.iloc[0:2])
+print (pub_año.iloc[826:])
+pub_autor = msc.mining_pubs("AU")
+print (pub_autor.iloc[0:2])
+print (pub_autor.iloc[826:])
+countries = msc.mining_pubs("AD")
+print (countries.iloc[0:2])
+print (countries.iloc[118:])
