@@ -1,0 +1,13 @@
+Ejercicio 6
+
+Para algún gen de interés, realice lo siguiente:
+
+- Una búsqueda en la página del NCBI nucleotide.
+
+- Descargue el Accession List de su búsqueda.
+
+- Cargue el Accession List en este notebook y haga una descarga de la data tipo genbank utilizando los diez primeros IDs de accesión.
+
+- Arme un árbol filogenético para los resultados del paso 3.
+
+- Interprete el árbol del paso 4.
