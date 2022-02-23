@@ -14,4 +14,14 @@
 - Memoria: 4096 MB RAM
 - Version: DirectX 12
 ## Versión de Python/Anaconda y de cada uno de los módulos/paquetes y utilizados
+- Pyton: 3.9
+- 
+
 ## Explicación de la data utilizada
+- [ ] Secuencia del gen:Se obtuvo la informacion de el gen de .... del Gen Bank para realizar el arbol filogenetico del ejercicio 6 
+- [ ] Ecuador Genomics:
+
+
+Debe crear un repositorio de GitHub y realizar al menos un control de la versión por cada ejercicio del 1 al 6. 
+Debe crear un archivo miningscience.py donde guardará las funciones  download_pubmed y mining_pubs. 
+Las soluciones de los ejercicios 2, 3, 4, 5 deben basarse en el uso de las funciones del módulo miningscience.
