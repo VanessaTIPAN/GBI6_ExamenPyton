@@ -21,6 +21,9 @@
 - [ ] Secuencia del gen:Se obtuvo la informacion de el gen de .... del Gen Bank para realizar el arbol filogenetico del ejercicio 6 
 - [ ] Ecuador Genomics:
 
+Cree un directorio de nombre data donde deben estar guardado la data utilizada
+Realice al menos 1 control de la versión (commits) por cada ejercicio (del 1 al 6), con un mensaje que inicie como:
+
 
 Debe crear un repositorio de GitHub y realizar al menos un control de la versión por cada ejercicio del 1 al 6. 
 Debe crear un archivo miningscience.py donde guardará las funciones  download_pubmed y mining_pubs. 
