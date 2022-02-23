@@ -1,0 +1,8 @@
+Ejercicio 4 
+Realice la visualización de los datos del ejercicio 3.
+
+pubyear: utilizando el conteo artículos por año, calcule la media y la desviación estandar (asumiendo que la distribución es normal). Realice un gráfico de la distribución normal de sus datos. Coloque el título, leyenda de los ejes "x" e "y", y la leyenda de la curva (utilice las expresiones matemáticas tipos latex de ser necesario).
+
+pub_authors: realice un boxplot del conteo de autores por artículo. Coloque las leyendas adecuadas para cada eje y el título.
+
+countries: realice una nube de puntos (adaptación de su tarea), resalte al menos 3 países con flechas. Coloque las leyendas adecuadas para cada eje y el título.
