@@ -1,5 +1,25 @@
+Ejercicio 1 [2 puntos]
+Cree el archivo miningscience.py con las siguientes dosfunciones:
 
+i. download_pubmed: para descargar la data de PubMed utilizando el ENTREZ de Biopython. El parámetro de entrada para la función es el keyword.
+
+ii. mining_pubs: esta función debe utilizar el módulo re y utilizar el párametro tipo para realizar lo siguiente:
+
+Si el tipo es "DP" recupera el año de publicación del artículo. El retorno es un dataframe con el PMID y el DP_year.
+
+Si el tipo es "AU" recupera el número de autores por PMID. El retorno es un dataframe con el PMID y el num_auth.
+
+Si el tipo es "AD" recupera el conteo de autores por país. El retorno es un dataframe con el country y el num_auth.
+
+Puede utilizar un if dentro de la función.
+
+Cree un docstring para cada función.
+
+Luego de crear las funciones, cargue el módulo miningscience como msc e imprima docstring de cada función.
 def download_pubmed (keyword):
+
+
+Resolucion : 
     """
     Lista de los ID de la busqueda en pubmed
     
