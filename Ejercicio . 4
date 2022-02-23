@@ -10,7 +10,6 @@ pub_authors: realice un boxplot del conteo de autores por artículo. Coloque las
 countries: realice una nube de puntos (adaptación de su tarea), resalte al menos 3 países con flechas. Coloque las leyendas adecuadas para cada eje y el título.
 
 
-Resolucion (codigos )
 #Resolucion de Pubyear
 import pandas as pd 
 import matplotlib.pyplot as plot
@@ -27,8 +26,75 @@ plot.title("Numero de articulos por año")
 plot.xlabel("Año")
 plot.ylabel("Repeticiones")
 
+Respuesta: 
+La media es:  2014.87077294686
+La desviación estandar es:  6.804327940706898
+Text(0, 0.5, 'Repeticiones')
+
+Nota: La grafica se podra visualizar en el archivo "2021II_GBI6_Python  O.Vanesa" cargada en el repositorio 
+
+
+
+
+
 #Resolucion de Pub_authors
 boxplot = pub_autor[0:827].boxplot(column=["Numero de autores"])
 plot.title("Conteo de autores por articulos")
 plot.ylabel("Frecuencia")
 print (pub_autor)
+  
+ Respuesta: 
+ PMID  Numero de autores
+0    19844075                  2
+1    31822297                  3
+2    29632024                 33
+3    32623267                 15
+4    27577878                 93
+..        ...                ...
+823  32917887                 30
+824  33634602                102
+825  28785301                173
+826  27429642                173
+827  31891233                728
+
+Nota: La grafica se podra visualizar en el archivo "2021II_GBI6_Python  O.Vanesa" cargada en el repositorio 
+
+
+
+
+#Resolucion de countries
+countries = countries.sort_values("numero de autores")
+max_pais = (countries[104:])
+
+countries_lat = [39.399872, 4.570868, 41.87194, 46.227638, 51.165691, 55.378051, 
+                40.463667, -14.235004, 37.09024, -1.831239  ] 
+                 
+countries_long = [-8.224454, -74.297333, 12.56738, 2.213749, 10.451526, -3.435973,  
+                 -3.74922, -51.92528, -95.712891, -78.183406]
+repeticiones = [143, 173, 177, 221, 253, 316, 499, 501, 784, 1206]
+
+import matplotlib.pyplot as plot
+%matplotlib inline
+
+plot.scatter(countries_lat, countries_long, repeticiones) 
+plot.colorbar()
+ard = dict(arrowstyle="->")
+plot.annotate("Ecuador", xy = (-1.831239, -78.183406 ), 
+             xytext = (10,0), arrowprops = ard) 
+
+plot.annotate("Brazil", xy= (-14.235004, -51.92528), 
+            xytext = (-10, -20), arrowprops = ard)
+
+plot.annotate("USA", xy= (37.09024, -95.712891), 
+            xytext = (40, -20), arrowprops = ard)
+            
+params = plot.gcf()
+plSize = params.get_size_inches()
+params.set_size_inches( (plSize[0] * 3, plSize[1] * 3) )
+plot.show()
+
+
+Respuesta: Grafica 
+
+Nota: La grafica se podra visualizar en el archivo "2021II_GBI6_Python  O.Vanesa" cargada en el repositorio             
+
