@@ -14,8 +14,15 @@
 - Memoria: 4096 MB RAM
 - Version: DirectX 12
 ## Versión de Python/Anaconda y de cada uno de los módulos/paquetes y utilizados
-- Pyton: 3.9
-- 
+- Version: Pyton: 3.9
+## Paquetes/modulos/librerias 
+- csv 
+- re
+- pandas
+- matplotlib
+-  Phylo
+-  SeqIO
+-  AlignIO
 
 ## Explicación de la data utilizada
 - [ ] Secuencia del gen:Se obtuvo la informacion de el gen de .... del Gen Bank para realizar el arbol filogenetico del ejercicio 6 
