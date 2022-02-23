@@ -20,3 +20,25 @@ print (pub_autor.iloc[826:])
 countries = msc.mining_pubs("AD")
 print (countries.iloc[0:2])
 print (countries.iloc[118:])
+
+
+
+Resultado:
+ PMID Año de publicación
+0  19844075               2010
+1  31822297               2019
+         PMID Año de publicación
+826  27429642               2016
+827  31891233               2020
+       PMID  Numero de autores
+0  19844075                  2
+1  31822297                  3
+         PMID  Numero de autores
+826  27429642                173
+827  31891233                728
+      pais  numero de autores
+0  Ecuador               1205
+1  Belgium                 90
+Empty DataFrame
+Columns: [pais, numero de autores]
+Index: []
