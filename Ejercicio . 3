@@ -1,0 +1,10 @@
+Ejercicio 3 
+Utilice la función mining_pubs para crear los siguientes dataframes:
+
+pub_year
+
+pub_authors
+
+coutries
+
+Muestre los dos primeros y los dos últimos registros de cada dataframe.
