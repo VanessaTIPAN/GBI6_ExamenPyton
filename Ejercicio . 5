@@ -1,2 +1,10 @@
 Ejercicio 5 
 Interprete los resultados del ejercicio 4
+
+
+Interpretacion: 
+En la primera imagen, (resolucion de countries) muestra los 3 paises como son Ecuador, Brazil y USA que tenian mas autores con publicaciones. 
+En la segunda imagen (resolucion de Pubyear) muestra las repeticiones por año del numero de articulos, es decir, el crecimiento de investigaciones
+que se ha ido dando a lo largo de los años, y en la imagen final (resolucion de Pub_authors) muestra los PMID y los numero de autores 
+que tiene cada uno, tomando como referencia desde la parte inferior se puede observar menos dispersion desde 17 hasta 40 (frecuencia) 
+aproximadamente a diferencia de 40 hasta 174.
