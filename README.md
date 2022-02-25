@@ -25,13 +25,11 @@
 -  AlignIO
 
 ## Explicación de la data utilizada
-- [ ] Secuencia del gen:Se obtuvo la informacion de el gen de .... del Gen Bank para realizar el arbol filogenetico del ejercicio 6 
-- [ ] Ecuador Genomics:
-
-Cree un directorio de nombre data donde deben estar guardado la data utilizada
-Realice al menos 1 control de la versión (commits) por cada ejercicio (del 1 al 6), con un mensaje que inicie como:
+- [ ] Secuencia del gen:Se obtuvo la informacion del gen  ESR1 del Gen Bank para realizar el arbol filogenetico del ejercicio 6 
+- [ ]  pubmed-EcuadorGen-set: Documento base para realizar la mayoria de ejercicios 
+- [ ]  Ecuador Genomics: Documento para el calculo de articulos y PMID para el ejercicio 2
 
 
-Debe crear un repositorio de GitHub y realizar al menos un control de la versión por cada ejercicio del 1 al 6. 
-Debe crear un archivo miningscience.py donde guardará las funciones  download_pubmed y mining_pubs. 
-Las soluciones de los ejercicios 2, 3, 4, 5 deben basarse en el uso de las funciones del módulo miningscience.
+
+
+
