@@ -11,3 +11,34 @@ Para algún gen de interés, realice lo siguiente:
 - Arme un árbol filogenético para los resultados del paso 3.
 
 - Interprete el árbol del paso 4.
+
+Resolucion del ejercicio 
+from Bio import Phylo
+from Bio import SeqIO
+from Bio import AlignIO
+from Bio.Phylo.TreeConstruction import DistanceCalculator
+from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
+from Bio import Entrez
+from Bio import SeqIO
+from Bio import GenBank 
+import csv 
+import re 
+
+with open("sequence.seq", errors="ignore") as file: 
+    texto_1 = file.read()
+accession = texto_1.split("\n")
+Entrez.email="josselyn.tipan@est.ikiam.edu.ec"
+archivo = open("secgen.txt", "w")
+for i in accession[0:10]: 
+    handle=Entrez.efetch(db="nuccore", id=i, rettype="fasta")
+    archivo.write(handle.read())
+with open("alineamiento.txt", "r") as f: 
+    alignment = AlignIO.read(f, "clustal")
+calculator = DistanceCalculator("identity")
+distance_matriz = calculator.get_distance(alignment)
+constructor = DistanceTreeConstructor(calculator)
+tree = constructor.build_tree(alignment)
+tree.rooted = True 
+Phylo.draw_ascii(tree)
+
+Nota: La grafica se podra visualizar en "2021II_GBI6_Python  O.Vanesa"
